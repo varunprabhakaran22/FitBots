@@ -1,0 +1,29 @@
+
+.card{
+    margin: 5% ;
+}
+.card-title{
+    color: #000000;
+}
+.providerName{
+    text-align: left;
+}
+
+.align-apply{
+    text-align: start;
+}
+
+.align-watch{
+    text-align: end;
+}
+
+.card-height{
+    min-height: 300px !important; 
+    margin-top: 5% !important; 
+}
+
+@media only screen and (max-width: 768px){
+    .card{
+        margin-left: 0%;
+    }
+}

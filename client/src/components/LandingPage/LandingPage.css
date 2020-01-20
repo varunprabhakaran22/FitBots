@@ -1,0 +1,84 @@
+
+form .frmBtn{cursor: pointer;
+    padding: 12px 40px; 
+    font-size: 20px; 
+    background-color: rgb(0, 175, 245); 
+    color: rgb(255, 255, 255); 
+    border: none; 
+    border-radius: 25px; 
+    margin: 0 10%;
+}
+
+.loading{
+    margin: 25% ;
+    text-align: center;
+}
+
+form .frmField{ 
+    display: block;
+    width: 50%; 
+    padding: 10px 20px;
+    color: #707D80; 
+    font-size: 24px;    
+    border: none;  
+    background: #EDEDED; 
+    outline: none; 
+    margin: 5% 10%;
+}
+
+
+
+.card{
+    margin: 5% 0% 0% 0%;
+}
+.card-title{
+    color: #000000;
+}
+.providerName{
+    text-align: left;
+}
+
+.align-apply{
+    text-align: start;
+}
+
+.align-watch{
+    text-align: end;
+}
+
+.card-height{
+    min-height: 300px !important; 
+    margin-top: 5% !important; 
+}
+
+.cardHolder{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 0% 5% 0% 5%;
+}
+.loading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.sub-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px){
+    .cardHolder{
+        grid-template-columns: 1fr;
+    }
+}
+@media only screen and (max-width: 768px){
+    .card{
+        margin-left: 0%;
+    }
+}
